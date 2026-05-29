@@ -102,7 +102,6 @@ Online-Learning-Course-Recommendation-Platform/
 ├── README.md
 └── .gitignore
 
-## Screenshots
 
 Add screenshots inside:
 
@@ -150,7 +149,7 @@ npm install
 Environment Variable
 
 Create a .env file inside the server folder:
-
+```
 PORT=5000
 MONGO_URI=your_mongodb_atlas_connection_string
 JWT_SECRET=your_jwt_secret_key
@@ -190,7 +189,8 @@ cd client
 npm run dev
 Frontend runs on:
 http://localhost:5173
-
+---
+```
 ## Demo Flow
 
 - Register as a learner.
@@ -205,55 +205,55 @@ http://localhost:5173
 - Complete all lessons and pass the quiz.
 - Unlock and download the certificate.
 - Check the leaderboard.
-
+---
 ##  Database Collections
-users
-courses
-enrollments
-progress
-Course Completion Logic
-
+- users
+- courses
+- enrollments
+- progress
+- Course Completion Logic
+---
 ## A certificate is unlocked when:
 
-All lessons are completed
-Quiz score is 70% or more
-
+- All lessons are completed
+- Quiz score is 70% or more
+---
 ## After completion, the learner gets:
-Completion status
-Certificate ID
-Downloadable certificate
-Leaderboard points
-Learning Outcomes
-
+- Completion status
+- Certificate ID
+- Downloadable certificate
+- Leaderboard points
+- Learning Outcomes
+---
 ## This project demonstrates:
 
-Full-stack MERN development
-REST API design
-MongoDB schema design
-JWT authentication
-Protected routes
-Recommendation logic
-Progress tracking
-Quiz handling
-Certificate generation
-Responsive UI design
-Dark/light theme implementation
-GitHub documentation
-Future Improvements
-Instructor dashboard
-Admin course management
-Payment integration
-Real video hosting
-Email verification
-Course reviews and ratings
-Advanced collaborative filtering
-AI-based skill-gap analysis
-Docker deployment
-Unit and integration tests
-
+- Full-stack MERN development
+- REST API design
+- MongoDB schema design
+- JWT authentication
+- Protected routes
+- Recommendation logic
+- Progress tracking
+- Quiz handling
+-  Certificate generation
+- Responsive UI design
+- Dark/light theme implementation
+- GitHub documentation
+- Future Improvements
+- Instructor dashboard
+- Admin course management
+- Payment integration
+- Real video hosting
+- Email verification
+- Course reviews and ratings
+- Advanced collaborative filtering
+- AI-based skill-gap analysis
+- Docker deployment
+- Unit and integration tests
+---
 
 ## Author
 Sakshi Ramakabal Maurya B.Tech in Information Technology at K.j. Somaiya institute of technology
-
+---
 ## License
 This project is open-source and available for learning and portfolio use.
